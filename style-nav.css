@@ -1,0 +1,133 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  color: white;
+
+  /* *************************************** */
+  /* PLAY WITH THESE SETTINGS TO MOVE THINGS */
+  /* *************************************** */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+/* background: none;
+border: none; */
+}
+button:hover {
+    background-color: white;
+    cursor: pointer;
+   
+  }
+}
+
+#container div {
+  /* width: 100px;
+  height: 100px; */
+}
+nav {
+  display: flex;
+}
+
+#div1 {
+  /* background-color: #80ffdb; */
+  border: 1px solid white;
+  display: flex;
+  font-size: 20px;
+  /* *************************************** */
+  /* PLAY WITH THESE SETTINGS TO MOVE THINGS */
+  /* *************************************** */
+  align-self: flex-end;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+}
+
+#div2 {
+  /* background-color: #64dfdf; */
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+
+  /* *************************************** */
+  /* PLAY WITH THESE SETTINGS TO MOVE THINGS */
+  /* *************************************** */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#div3 {
+  /* background-color: #48bfe3; */
+  border: 1px solid white;
+  display: flex;
+
+  /* *************************************** */
+  /* PLAY WITH THESE SETTINGS TO MOVE THINGS */
+  /* *************************************** */
+  /* justify-content: flex-end;
+  align-items: flex-end; */
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  color: white;
+
+  /* *************************************** */
+  /* PLAY WITH THESE SETTINGS TO MOVE THINGS */
+  /* *************************************** */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#browse {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid pink;
+}
+
+#list {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid teal;
+  margin: 0;
+}
+
+/* ul {
+  /* padding-left: 0; */
+}
+
+li {
+  padding: 
+} */
+
+#help {
+  display: flex;
+  flex-direction: column;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+}
