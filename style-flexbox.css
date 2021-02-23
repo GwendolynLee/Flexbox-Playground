@@ -1,0 +1,88 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+/* OUTSIDE CONTAINER  */
+.containerAll {
+  background-color: #376781;
+  border: 5px solid #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ALL SECTIONS INSIDE MAIN CONTAINER */
+.containerAll div {
+  background-color: #e47452;
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+
+/* *************************** */
+/* CHANGE SETTTINGS TO AFFECT */
+/*  ALL DIVS INSIDE CONTAINER */
+#container1 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* *************************** */
+/* CHANGE SETTTINGS TO AFFECT */
+/*  INSIDE EACH DIV */
+#div1 {
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+#div2 {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+#div3 {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+#div4 {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* *************************** */
+/* CHANGE SETTTINGS TO AFFECT */
+/*  ALL DIVS INSIDE CONTAINER */
+#container2 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* *************************** */
+/* CHANGE SETTTINGS TO AFFECT */
+/*  INSIDE EACH DIV */
+#divA {
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+#divB {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+#divC {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+#divD {
+  justify-content: center;
+  align-items: flex-end;
+}
